@@ -3,7 +3,7 @@
 @prefix     owl: 	<http://www.w3.org/2002/07/owl#> .
 @prefix   	dive: 	<http://purl.org/collections/nl/dive/> .
 
-@prefix 	sem: 	<http://semanticweb.cs.vu.nl/2009/11/sem/>
+@prefix 	sem: 	<http://semanticweb.cs.vu.nl/2009/11/sem/>.
 @prefix   	oa: 	<http://www.w3.org/ns/oa#>.
 @prefix     skos: 	<http://www.w3.org/2004/02/skos/core#> .
 @prefix     foaf: 	<http://xmlns.com/foaf/0.1/> .
