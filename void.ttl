@@ -19,7 +19,7 @@ a void:Dataset ;
         dc:title "DIVE test data" ;
 		owl:versionInfo "0.1" ;
                 void:dataDump
-                <fakedata.rdf>,
+                <fakedata.ttl>,
                 <sem.rdf>.
 
 
