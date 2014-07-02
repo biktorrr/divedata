@@ -93,6 +93,6 @@ sem:hasSubEvent rdfs:subPropertyOf dive:relatedEvent.
 
 dive:isRelatedTo 
 	a rdf:Property ;
-	rdfs:comment "this is the most toplevel related-toness.
+	rdfs:comment "this is the most toplevel related-toness".
 	
 
