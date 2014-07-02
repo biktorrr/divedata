@@ -1,0 +1,83 @@
+@prefix       foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix       skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix        owl: <http://www.w3.org/2002/07/owl#> .
+@prefix       rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix        rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+
+@prefix        sem: <http://semanticweb.cs.vu.nl/2009/11/sem/> .
+
+@prefix       dive: <http://purl.org/collections/nl/dive/> .
+
+
+# Named toplevel resources (21)
+
+dive:Image
+	a rdfs:Class ;
+	rdfs:label "Image" .
+
+dive:Object
+	a rdfs:Class ;
+	rdfs:label "Object" .
+
+dive:Video
+	a rdfs:Class ;
+	rdfs:label "Video" .
+
+dive:depictedBy
+	a rdf:Property ;
+	rdfs:label "depictedBy" .
+
+dive:hasExternalLink
+	a rdf:Property ;
+	rdfs:domain rdfs:Resource ;
+	rdfs:label "hasExternalLink" ;
+	rdfs:range rdfs:Resource .
+
+dive:hasObject
+	a rdf:Property ;
+	rdfs:domain sem:Event ;
+	rdfs:subPropertyOf sem:eventProperty;
+	rdfs:label "hasObject" ;
+	rdfs:range rdfs:Resource .
+
+dive:hasSource
+	a rdf:Property ;
+	rdfs:domain sem:Event ;
+	rdfs:subPropertyOf sem:eventProperty;
+	rdfs:label "hasSource" ;
+	rdfs:range rdfs:Resource .
+
+dive:placeholder
+	a rdf:Property ;
+	rdfs:label "placeholder" ;
+	rdfs:range rdfs:Resource .
+
+dive:relatedConcept
+	a rdf:Property ;
+	rdfs:domain sem:Event ;
+	rdfs:label "relatedConcept" ;
+	rdfs:range rdfs:Resource .
+
+dive:relatedEvent
+	a rdf:Property ;
+	rdfs:domain sem:Event ;
+	rdfs:label "relatedEvent" ;
+	rdfs:range rdfs:Resource .
+
+dive:source
+	a rdf:Property ;
+	rdfs:label "source" ;
+	rdfs:range rdfs:Resource .
+
+dive:sourceType
+	a rdf:Property ;
+	rdfs:domain rdfs:Resource ;
+	rdfs:label "sourceType" ;
+	rdfs:range rdfs:Literal .
+
+dive:url
+	a rdf:Property ;
+	rdfs:domain rdfs:Resource ;
+	# rdfs:subPropertyOf edm:object;
+	rdfs:label "url" ;
+	rdfs:range rdfs:Resource .

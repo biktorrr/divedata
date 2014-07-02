@@ -1,9 +1,11 @@
 @prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 @prefix sem: <http://semanticweb.cs.vu.nl/2009/11/sem/> .
-@prefix dives: <http://purl.org/collections/nl/dive/> . 
+@prefix dive: <http://purl.org/collections/nl/dive/> . 
 @prefix foaf: <http://xmlns.com/foaf/0.1/> .
 @prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix     owl: 	<http://www.w3.org/2002/07/owl#> .
+@prefix     skos: 	<http://www.w3.org/2004/02/skos/core#> .
 
 # this example is based on dive-data-example.txt I got from werner
 # In this version I use SEM relations
@@ -88,7 +90,7 @@ dive:12345
 		rdf:value dive:343534;	
 		sem:RoleType [rdfs:label "contains"]; # not really
 		];			
-	dive:relatedConcept [	#sem does not have links to objects, so  we use a dive property here
+	dive:relatedConcept [	#sem does not have links to objects, so  we use a dive property here, can all things have related concepts etc. or only events?
 		rdf:value dive:3463463;	
 		sem:RoleType [rdfs:label "was a technique used"]; 
 		];		

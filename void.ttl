@@ -20,6 +20,5 @@ a void:Dataset ;
 		owl:versionInfo "0.1" ;
                 void:dataDump
                 <fakedata_werner.ttl>,
-                <sem.rdf>.
-
-
+                <sem.rdf>,
+				<dive_schema.ttl>.
