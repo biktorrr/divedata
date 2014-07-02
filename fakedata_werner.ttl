@@ -158,7 +158,7 @@ dive:236622
 	dive:placeholder <http://bigimage.com/aansluiting.jpg>; 
 	dive:source <http://bigimage.com/aansluiting.jpg>.
 
-dive:23438
+dive:23439
 	a dive:Image ;
 	dive:placeholder <http://image.com/opening.jpg>; 
 	dive:source <http://image.com/opening.jpg>.	
