@@ -24,12 +24,14 @@ dive:345346
 	dc:identifier "345346";
 	foaf:name "Ingenieur Lely"; #use voc-specific properties here or go with rdfs:label
 	owl:sameAs <http://viaf.org/viaf/43023502>;
+	dc:description "Lely deed veel met Water";
 	dive:depictedBy dive:23438.
 
 dive:24634
 	a sem:Actor ;	
 	dc:identifier "345346";
 	foaf:name "Koningin Wilhelmina";
+	dc:description "Wilhelmina hield ook van water";
 	owl:sameAs <http://viaf.org/viaf/261774037>;
 	dive:depictedBy dive:34534.
 	
@@ -37,12 +39,14 @@ dive:234634
 	a dive:Object ;	 # not in SEM. Use DIVE for this? or is it a Concept?
 	dc:identifier "234634";
 	rdfs:label "Drijfkraan";
+	dc:description "Kraan die op water drijft";
 	dive:depictedBy dive:2523.
 	
 dive:343534
 	a sem:Place ;	
 	dc:identifier "343534";
 	rdfs:label "Zuiderzee";
+	dc:description "groot water";
 	owl:sameAs <http://sws.geonames.org/2753361>;
 	dive:depictedBy dive:23455.	
 	
@@ -50,17 +54,20 @@ dive:3463463
 	a skos:Concept ;	
 	dc:identifier "3463463";
 	skos:prefLabel "Inpolderen";
+	dc:description "Wegpompen van water";
 	dive:depictedBy dive:745.	
 
 dive:758
 	a sem:Event ;	
 	dc:identifier "758";
+	dc:description "Water water water";
 	rdfs:label "Storm op afsluitdijk";
 	dive:depictedBy dive:7455.	
 
 dive:96456
 	a sem:Event ;	
 	dc:identifier "96456";
+	dc:description "Het laatste stukje water werd overbrugd";
 	rdfs:label "De aansluiting";
 	dive:depictedBy dive:236622.	
 
@@ -69,6 +76,7 @@ dive:12345
 	a sem:Event ;	
 	dc:identifier "12345";
 	rdfs:label "Opening afsluitdijk";
+	dc:description "De afsluitdijk heef links en rechts water en die werd nu geopend";
 	dive:depictedBy dive:23438;
 	sem:hasActor [	
 		a sem:Role;		
