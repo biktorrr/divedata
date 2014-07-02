@@ -62,6 +62,10 @@ dive:758
 	dc:identifier "758";
 	dc:description "Water water water";
 	rdfs:label "Storm op afsluitdijk";
+	dive:relatedEvent [	
+		rdf:value dive:12345;	
+		sem:RoleType [ rdfs:label "some relation to"];
+		];		
 	dive:depictedBy dive:7455.	
 
 dive:96456
@@ -69,6 +73,7 @@ dive:96456
 	dc:identifier "96456";
 	dc:description "Het laatste stukje water werd overbrugd";
 	rdfs:label "De aansluiting";
+	
 	dive:depictedBy dive:236622.	
 
 
