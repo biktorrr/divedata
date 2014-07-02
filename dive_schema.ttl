@@ -44,7 +44,7 @@ dive:hasObject
 dive:hasSource
 	a rdf:Property ;
 	rdfs:domain sem:Event ;
-	rdfs:subPropertyOf dive:isRelatedTo;
+	# rdfs:subPropertyOf dive:isRelatedTo;
 	rdfs:subPropertyOf sem:eventProperty;
 	rdfs:label "hasSource" ;
 	rdfs:range rdfs:Resource .
