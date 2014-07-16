@@ -6,6 +6,7 @@
 @prefix dc: <http://purl.org/dc/elements/1.1/> .
 @prefix     owl: 	<http://www.w3.org/2002/07/owl#> .
 @prefix     skos: 	<http://www.w3.org/2004/02/skos/core#> .
+@prefix     oa: 	<http://www.w3.org/ns/oa#> .
 
 # this example is based on dive-data-example.txt I got from werner
 # In this version I use SEM relations
@@ -36,7 +37,7 @@ dive:24634
 	dive:depictedBy dive:34534.
 	
 dive:234634
-	a dive:Object ;	 # not in SEM. Use DIVE for this? or is it a Concept?
+	a skos:Concept ;	 # not in SEM. Use DIVE for this? or is it a Concept?
 	dc:identifier "234634";
 	rdfs:label "Drijfkraan";
 	dc:description "Kraan die op water drijft";
@@ -95,7 +96,7 @@ dive:12345
 		sem:RoleType [rdfs:label "Gave Build Permission"]; 
 		sem:RoleType [rdfs:label "Gid inaugurate"]# are these arbitrary values or enumerable? first looked like the latter. Later decided on the former
 		];	
-	dive:hasObject [	#sem does not have objects, so  we use a dive property here
+	dive:relatedConcept [	
 		rdf:value dive:234634;	
 		sem:RoleType [rdfs:label "is used to build"]; 
 		];		
@@ -126,7 +127,8 @@ dive:12345
 		# do these need to be two different properties?
 		
 		
-	
+
+# Dive image links
 	
 dive:23438
 	a dive:Image ;
@@ -169,5 +171,57 @@ dive:23439
 	dive:source <http://image.com/opening.jpg>.	
 	
 	
+# Open Annotation links
 
+dive:annotation23438
+	a oa:Annotation;
+	oa:hasTarget dive:23438;
+	oa:hasBody dive:12345.
+	
+dive:annotation23438a
+	a oa:Annotation;
+	oa:hasTarget dive:23438;
+	oa:hasBody dive:345346.
+	
+dive:annotation34534
+	a oa:Annotation;
+	oa:hasTarget dive:34534;
+	oa:hasBody dive:24634.
+	
+dive:annotation2523
+	a oa:Annotation;
+	oa:hasTarget dive:2523;
+	oa:hasBody dive:234634.
+	
+dive:annotation23455
+	a oa:Annotation;
+	oa:hasTarget dive:23455;
+	oa:hasBody dive:343534.	
+	
+dive:annotation745
+	a oa:Annotation;
+	oa:hasTarget dive:745;
+	oa:hasBody dive:3463463.	
+
+dive:annotation7455
+	a oa:Annotation;
+	oa:hasTarget dive:7455;
+	oa:hasBody dive:758.	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
 	

@@ -3,21 +3,25 @@
 @prefix        owl: <http://www.w3.org/2002/07/owl#> .
 @prefix       rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 @prefix        rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
-
 @prefix        sem: <http://semanticweb.cs.vu.nl/2009/11/sem/> .
-
 @prefix       dive: <http://purl.org/collections/nl/dive/> .
 
 
-# Named toplevel resources (21)
+# the Dive class is the class of all things we are interested in 
+dive:Entity 
+	a rdfs:Class;
+	rdfs:label "DIVE Entity";
+	rdfs:subClassOf rdfs:Resource.
+	
+# Four main classes
+skos:Concept rdfs:subClassOf dive:Entity.
+sem:Actor rdfs:subClassOf dive:Entity.
+sem:Place rdfs:subClassOf dive:Entity.
+sem:Event rdfs:subClassOf dive:Entity.
 
 dive:Image
 	a rdfs:Class ;
 	rdfs:label "Image" .
-
-dive:Object
-	a rdfs:Class ;
-	rdfs:label "Object" .
 
 dive:Video
 	a rdfs:Class ;
@@ -33,18 +37,9 @@ dive:hasExternalLink
 	rdfs:label "hasExternalLink" ;
 	rdfs:range rdfs:Resource .
 
-dive:hasObject
-	a rdf:Property ;
-	rdfs:domain sem:Event ;
-	rdfs:subPropertyOf dive:isRelatedTo;
-	rdfs:subPropertyOf sem:eventProperty;
-	rdfs:label "hasObject" ;
-	rdfs:range rdfs:Resource .
-
 dive:hasSource
 	a rdf:Property ;
 	rdfs:domain sem:Event ;
-	# rdfs:subPropertyOf dive:isRelatedTo;
 	rdfs:subPropertyOf sem:eventProperty;
 	rdfs:label "hasSource" ;
 	rdfs:range rdfs:Resource .
@@ -56,16 +51,30 @@ dive:placeholder
 
 dive:relatedConcept
 	a rdf:Property ;
-	rdfs:domain sem:Event ;
+	rdfs:domain dive:Entity ;
 	rdfs:subPropertyOf dive:isRelatedTo;
 	rdfs:label "relatedConcept" ;
 	rdfs:range rdfs:Resource .
 
 dive:relatedEvent
 	a rdf:Property ;
-	rdfs:domain sem:Event ;
+	rdfs:domain dive:Entity ;
 	rdfs:subPropertyOf dive:isRelatedTo;	
 	rdfs:label "relatedEvent" ;
+	rdfs:range rdfs:Resource .
+	
+dive:relatedActor
+	a rdf:Property ;
+	rdfs:domain dive:Entity ;
+	rdfs:subPropertyOf dive:isRelatedTo;
+	rdfs:label "related actor" ;
+	rdfs:range rdfs:Resource .
+
+dive:relatedPlace
+	a rdf:Property ;
+	rdfs:domain dive:Entity ;
+	rdfs:subPropertyOf dive:isRelatedTo;	
+	rdfs:label "related place" ;
 	rdfs:range rdfs:Resource .
 
 dive:source
@@ -87,12 +96,25 @@ dive:url
 	rdfs:range rdfs:Resource .
 	
 # not very nice to define things about other peoples properties :(
-sem:hasActor rdfs:subPropertyOf dive:isRelatedTo.
-sem:hasPlace rdfs:subPropertyOf dive:isRelatedTo.
+sem:hasActor rdfs:subPropertyOf dive:relatedActor.
+sem:hasPlace rdfs:subPropertyOf dive:relatedPlace.
 sem:hasSubEvent rdfs:subPropertyOf dive:relatedEvent.
 
 dive:isRelatedTo 
 	a rdf:Property ;
 	rdfs:comment "this is the most toplevel related-toness".
 	
+	
+# Objects no longer exist
+	
+#dive:Object
+#	a rdfs:Class ;
+#	rdfs:label "Object" .
 
+#dive:hasObject
+#	a rdf:Property ;
+#	rdfs:domain sem:Event ;
+#	rdfs:subPropertyOf dive:isRelatedTo;
+#	rdfs:subPropertyOf sem:eventProperty;
+#	rdfs:label "hasObject" ;
+#	rdfs:range rdfs:Resource .
