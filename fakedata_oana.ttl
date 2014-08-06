@@ -272,3 +272,119 @@ dive:annotation04d
 	a oa:Annotation;
 	oa:hasTarget dive:vid_tentoonstelling2;
 	oa:hasBody dive:evt_tentoonstelling2d.		
+	
+	
+	
+# EX 5
+dive:vid_example5
+	a dive:video;
+	dive:placeholder "5.jpg";
+	dc:decription "De in Nederland tijdens de Tweede Wereldoorlog geëxecuteerde Arubaanse verzetsstrijder Boy Ecury is door het Nederlandse marineschip 'Van Speijk' overgebracht naar Aruba. Daar wordt hij met militaire eer begraven op het kerkhof van Oranjestad. Veel publieke belangstelling als de lange begrafenisstoet, met oa militairen en geestelijken, door de straten naar het kerkhof trekt. Dragers laten de kist aan touwen in de grafkuil neer. 00:53 de gouverneur van Curaçao, P.A. Kasteel.".
+	
+dive:evt_militaire_eer
+	a sem:Event;
+	rdfs:label "militaire eer begraven";
+	sem:hasActor dive:vanSpeijk;
+	sem:hasActor dive:Ecury;
+	sem:hasActor dive:gouv_curacao;
+	sem:hasActor dive:pakasteel;
+	sem:hasActor dive:militairen;
+	sem:hasActor dive:geestelijken;
+	sem:hasActor dive:boyecury;
+	sem:hasActor dive:dragers;
+	sem:hasPlace dive:kerkhofOranjestad;
+	sem:hasPlace dive:Aruba;
+	sem:hasPlace dive:Oranjestad;
+	sem:hasPlace dive:Nederland;
+	sem:hasPlace dive:stratennaarkerkhof;
+	sem:hasTime dive:tijdenswo2;
+	sem:relatedConcept dive:marineschip;
+	dive:relatedEvent dive:evt_wo2;
+	dive:depictedBy dive:vid_example5.
+
+dive:evt_wo2
+	a sem:Event;
+	rdfs:label "Tweede Wereldoorlog";
+	sem:hasActor dive:vanSpeijk;
+	sem:hasActor dive:Ecury;
+	sem:hasActor dive:gouv_curacao;
+	sem:hasActor dive:pakasteel;
+	sem:hasActor dive:militairen;
+	sem:hasActor dive:geestelijken;
+	sem:hasActor dive:boyecury;
+	sem:hasActor dive:dragers;
+	sem:hasPlace dive:kerkhofOranjestad;
+	sem:hasPlace dive:Aruba;
+	sem:hasPlace dive:Oranjestad;
+	sem:hasPlace dive:Nederland;
+	sem:hasPlace dive:stratennaarkerkhof;
+	sem:hasTime dive:tijdenswo2; # this we get from the data
+	sem:hasBeginTimeStamp "1939-09-01"; # this would be data we would get from an enrichment
+	sem:hasEndTimeStamp "1945-09-02";
+	dive:relatedConcept dive:marineschip;
+	dive:relatedEvent dive:evt_militaire_eer;
+	dive:depictedBy dive:vid_example5.
+
+dive:tijdenswo2
+		a sem:Time;
+		rdfs:label "tijdens de Tweede Wereldoorlog".
+		
+	
+dive:vanSpeijk
+	a sem:Actor ;	
+	foaf:name "Nederlandse marineschip 'Van Speijk'".	
+
+dive:Ecury
+	a sem:Actor ;	
+	foaf:name "Arubaanse verzetsstrijder Boy Ecury".
+dive:gouv_curacao
+	a sem:Actor ;	
+	foaf:name "gouverneur van Curaçao".
+dive:pakasteel
+	a sem:Actor ;	
+	foaf:name "P.A. Kasteel".
+dive:militairen
+	a sem:Actor ;	
+	foaf:name "militairen".
+dive:geestelijken
+	a sem:Actor ;	
+	foaf:name "geestelijken".
+dive:boyecury
+	a sem:Actor ;	
+	foaf:name "Boy Ecury".
+dive:dragers
+	a sem:Actor ;	
+	foaf:name "Dragers".
+	
+dive:kerkhofOranjestad
+	a sem:Place ;	
+	rdfs:label "kerkhof van Oranjestad".	
+dive:Aruba
+	a sem:Place ;	
+	rdfs:label "Aruba".	
+	
+dive:Oranjestad
+	a sem:Place ;	
+	rdfs:label "Oranjestad".	
+	
+dive:Nederland
+	a sem:Place ;	
+	rdfs:label "Nederland".	
+	
+dive:stratennaarkerkhof
+	a sem:Place ;	
+	rdfs:label "straten naar het kerkhof".
+
+dive:marineschip
+	a skos:Concept;
+	skos:prefLabel "marineschip".
+	
+dive:annotation05a
+	a oa:Annotation;
+	oa:hasTarget dive:vid_example5;
+	oa:hasBody dive:evt_militaire_eer.	
+	
+dive:annotation05b
+	a oa:Annotation;
+	oa:hasTarget dive:vid_example5;
+	oa:hasBody dive:evt_wo2.	
