@@ -42,5 +42,6 @@ a void:Dataset ;
 		owl:versionInfo "0.1" ;
                 void:dataDump
                 <oi_enriched.ttl>,
+                <kb_enriched.ttl>,
                 <sem.rdf>,
 				<dive_schema.ttl>.
