@@ -33,3 +33,14 @@ a void:Dataset ;
                 <fakedata_oana.ttl>,
                 <sem.rdf>,
 				<dive_schema.ttl>.
+
+<dive_openimages>
+a void:Dataset ;
+		a lib:CloudNode ;
+        lib:source dive: ;
+        dc:title "DIVE OpenImages data" ;
+		owl:versionInfo "0.1" ;
+                void:dataDump
+                <oi_enriched.ttl>,
+                <sem.rdf>,
+				<dive_schema.ttl>.

@@ -110,6 +110,19 @@ dive:placeholder
 	rdfs:range rdfs:Resource .
 	
 	
+# Time	
+dive:hasTime
+	a rdf:Property ;
+	rdfs:domain rdfs:Entity ;
+	rdfs:label "hasTime" ;
+	rdfs:range sem:Time 	.
+	
+dive:hasTimeStamp
+	a rdf:Property ;
+	rdfs:domain rdfs:Entity ;
+	rdfs:label "hasTimeStamp" ;
+	rdfs:range rdfs:Literal 	.
+	
 # External references	
 dive:hasExternalLink
 	a rdf:Property ;
