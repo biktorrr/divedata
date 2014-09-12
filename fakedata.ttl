@@ -15,7 +15,6 @@
 #                           Data										 #
 ##########################################################################
 
-
 dive:video_object1 
 	a dive:Object;
 	dive:oi_id "oai:openimages.eu:15111";
@@ -23,29 +22,28 @@ dive:video_object1
 	dive:has_event dive:event1; # has extracted event? do we want to do confidence and provenance? blank node or uri?
 	dive:has_event dive:event2;
 	rdfs:label "My object".
-	
+
 dive:event1
 	a sem:Event;
 	sem:hasActor dive:actor1;
 	sem:hasPlace dive:place1.
-		
+	
 dive:actor1
 	a sem:Actor;
 	rdfs:label "burgemeester G. van Hall";
 	foaf:name "G. van Hall".
-	
+
 dive:place1		
 	a sem:Place;
 	rdfs:label "Dam te Amsterdam";
 	rdfs:label "Amsterdam";
 	owl:sameAs <http://sws.geonames.org/2759794/>.
-	
+
 dive:event2
 	a sem:Event;
 	sem:hasActor dive:actor1;
 	sem:hasPlace dive:place1.
-	
+
 dive:place2		
 	a sem:Place;
 	rdfs:label "Nieuwendam".
-	
