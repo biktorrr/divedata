@@ -12,36 +12,15 @@
 
 
 
-<dive_werner>
+<dive_all>
 a void:Dataset ;
 		a lib:CloudNode ;
         lib:source dive: ;
         dc:title "DIVE test data" ;
 		owl:versionInfo "0.1" ;
                 void:dataDump
-                <fakedata_werner.ttl>,
-                <sem.rdf>,
-				<dive_schema.ttl>.
-
-<dive_oana>
-a void:Dataset ;
-		a lib:CloudNode ;
-        lib:source dive: ;
-        dc:title "DIVE Oana data" ;
-		owl:versionInfo "0.1" ;
-                void:dataDump
-                <fakedata_oana.ttl>,
-                <sem.rdf>,
-				<dive_schema.ttl>.
-
-<dive_openimages>
-a void:Dataset ;
-		a lib:CloudNode ;
-        lib:source dive: ;
-        dc:title "DIVE OpenImages data" ;
-		owl:versionInfo "0.1" ;
-                void:dataDump
                 <oi_enriched.ttl>,
                 <kb_enriched.ttl>,
+				<dive_links.ttl>
                 <sem.rdf>,
 				<dive_schema.ttl>.
