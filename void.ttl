@@ -21,6 +21,6 @@ a void:Dataset ;
                 void:dataDump
                 <oi_enriched.ttl>,
                 <kb_enriched.ttl>,
-				<dive_links.ttl>
+				<dive_links.ttl>,
                 <sem.rdf>,
 				<dive_schema.ttl>.
