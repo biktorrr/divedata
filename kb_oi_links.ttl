@@ -1,0 +1,281 @@
+@base           <oi_to_kb_links> .
+@prefix    owl: <http://www.w3.org/2002/07/owl#> .
+@prefix entity: <http://purl.org/collections/nl/dive/entity/> .
+
+# Named toplevel resources (92)
+
+<http://purl.org/collections/nl/dive/entity/001b054f8e8b405ca40d4150c574adda>
+	owl:sameAs <http://purl.org/collections/nl/dive/entity/kb-loc-Den+Haag> .
+
+<http://purl.org/collections/nl/dive/entity/006329253fc8fb38655b456254e56d6c>
+	owl:sameAs entity:kb-loc-Vlissingen .
+
+<http://purl.org/collections/nl/dive/entity/011adfbc94e5eb206bd0d9ce3fc2d8ef>
+	owl:sameAs entity:kb-loc-Arnhem .
+
+<http://purl.org/collections/nl/dive/entity/0132278b6cbfbfa96eed81d244e7d266>
+	owl:sameAs entity:kb-org-Vos .
+
+<http://purl.org/collections/nl/dive/entity/03d11799d350a0099649db4c341419eb>
+	owl:sameAs entity:kb-loc-Spanje .
+
+<http://purl.org/collections/nl/dive/entity/040f5b8ea35bcdfe9ad46ef5c0e45558>
+	owl:sameAs entity:kb-loc-Nijmegen .
+
+<http://purl.org/collections/nl/dive/entity/046932643c62c144e0ae178400cb91e1>
+	owl:sameAs entity:kb-loc-Parijs .
+
+<http://purl.org/collections/nl/dive/entity/04b1a4318d30249ce2bc43a312003191>
+	owl:sameAs entity:kb-loc-Zeeuws .
+
+<http://purl.org/collections/nl/dive/entity/05d3190635c183b3b2d5bd88f83f2e58>
+	owl:sameAs entity:kb-loc-Haarlem .
+
+<http://purl.org/collections/nl/dive/entity/05d61c647ea6425e606f2b82fceeafcb>
+	owl:sameAs entity:kb-loc-Lunteren .
+
+<http://purl.org/collections/nl/dive/entity/063cd9709352dc2772a4e2e8b3830c8e>
+	owl:sameAs entity:kb-loc-Rotterdam .
+
+<http://purl.org/collections/nl/dive/entity/0856e60af04a96bea2baf0fdc4fc3e4d>
+	owl:sameAs entity:kb-loc-Vietnam .
+
+<http://purl.org/collections/nl/dive/entity/0892ed09556014331aa71f12e3eb73ec>
+	owl:sameAs entity:kb-loc-Leidschendam .
+
+<http://purl.org/collections/nl/dive/entity/098beae0ff4b2867f2cb0e9edb6c3c90>
+	owl:sameAs entity:kb-loc-Alkmaar .
+
+<http://purl.org/collections/nl/dive/entity/0beb080c79dd41f7c207b04b17ae53ee>
+	owl:sameAs entity:kb-org-Amsterdam .
+
+<http://purl.org/collections/nl/dive/entity/0c2ef15e1d861da52b85c82b9aab4cc5>
+	owl:sameAs entity:kb-loc-Zandvoort .
+
+<http://purl.org/collections/nl/dive/entity/0c54d55f0a9425a4102b02191850da9b>
+	owl:sameAs entity:kb-loc-Amsterdam .
+
+<http://purl.org/collections/nl/dive/entity/0ca73bedf1cc1ea033846a12532d2772>
+	owl:sameAs entity:kb-loc-Utrecht .
+
+<http://purl.org/collections/nl/dive/entity/0d5904bc5370e7e4b2c4c423191fd4fc>
+	owl:sameAs entity:kb-loc-Almere .
+
+<http://purl.org/collections/nl/dive/entity/0d6c300b253d43ab29092d5779a1df46>
+	owl:sameAs <http://purl.org/collections/nl/dive/entity/kb-org-Rode+Kruis> .
+
+<http://purl.org/collections/nl/dive/entity/107e00ceebf649c3908c1252651af049>
+	owl:sameAs entity:kb-loc-Enkhuizen .
+
+<http://purl.org/collections/nl/dive/entity/10f0472c7b8c833f2f4ffcc313587469>
+	owl:sameAs entity:kb-loc-Luik .
+
+<http://purl.org/collections/nl/dive/entity/120e8da662fb1a7af386c64b00a1a850>
+	owl:sameAs entity:kb-org-Russische .
+
+<http://purl.org/collections/nl/dive/entity/12da9f5602ee8d3c9b00af723516e9e2>
+	owl:sameAs entity:kb-loc-Rijn .
+
+<http://purl.org/collections/nl/dive/entity/1b04767bf682743896a9636bc850363e>
+	owl:sameAs <http://purl.org/collections/nl/dive/entity/kb-org-Sociale+Zaken> .
+
+<http://purl.org/collections/nl/dive/entity/1d3a65b3ef07a8b7babcf34018fc3952>
+	owl:sameAs entity:kb-loc-Hongaarse .
+
+<http://purl.org/collections/nl/dive/entity/1eaf3f1ae9a34f4eab815e7aaa8a4e6b>
+	owl:sameAs entity:kb-loc-Zuiderzeemuseum .
+
+<http://purl.org/collections/nl/dive/entity/2045a0591719f16345fe869bce84ecc8>
+	owl:sameAs entity:kb-loc-Bijlmermeer .
+
+<http://purl.org/collections/nl/dive/entity/209944c6f546a9de4710320cefba93bc>
+	owl:sameAs entity:kb-loc-Surinaamse .
+
+<http://purl.org/collections/nl/dive/entity/214f49ccc7c415bdd571db161b25ac3b>
+	owl:sameAs entity:kb-org-Hongarije .
+
+<http://purl.org/collections/nl/dive/entity/23393b44b8a12f208f21d3e9c1126a31>
+	owl:sameAs entity:kb-org-Indonesische .
+
+<http://purl.org/collections/nl/dive/entity/237aa75df76ab426ca94b206d6a771c1>
+	owl:sameAs entity:kb-org-Rotterdam .
+
+<http://purl.org/collections/nl/dive/entity/23b6a0c053990a41c07f04d83584cd89>
+	owl:sameAs entity:kb-loc-Leeuwarden .
+
+<http://purl.org/collections/nl/dive/entity/28bd8f1b7c962536d276681c0806c743>
+	owl:sameAs entity:kb-loc-Vredespaleis .
+
+<http://purl.org/collections/nl/dive/entity/2a95a50cd52821fbd0b652183b0b8dfb>
+	owl:sameAs entity:kb-loc-Nederland .
+
+<http://purl.org/collections/nl/dive/entity/2b1d07ee03c4662d1b89fb4b0def69f6>
+	owl:sameAs entity:kb-loc-Duitsland .
+
+<http://purl.org/collections/nl/dive/entity/308dc9410aefc2401f468164e3d6eebe>
+	owl:sameAs <http://purl.org/collections/nl/dive/entity/kb-org-De+Gaay+Fortman> .
+
+<http://purl.org/collections/nl/dive/entity/30d3791aafb965b43203b033fcf9a77d>
+	owl:sameAs entity:kb-loc-Rembrandtplein .
+
+<http://purl.org/collections/nl/dive/entity/32a03c8b7c371038dad7abc32225bf95>
+	owl:sameAs entity:kb-loc-Friesland .
+
+<http://purl.org/collections/nl/dive/entity/48acc47b985b28d8ec339218262c3e78>
+	owl:sameAs entity:kb-loc-Postmuseum .
+
+<http://purl.org/collections/nl/dive/entity/7378f63df7e8d7e1d2a9b66cacd14bff>
+	owl:sameAs entity:kb-org-Sinterklaas .
+
+<http://purl.org/collections/nl/dive/entity/9bb355239a53dcb5b7511a804268c495>
+	owl:sameAs entity:kb-org-Spoorwegen .
+
+<http://purl.org/collections/nl/dive/entity/9d6fe07453426ea8eb7101c3c5c587c8>
+	owl:sameAs entity:kb-loc-Rokin .
+
+entity:a362b0a551b906edae43cc5f16476318
+	owl:sameAs entity:kb-org-Arnhem .
+
+entity:b69e138f697cbb7d5e1690bb6657896b
+	owl:sameAs <http://purl.org/collections/nl/dive/entity/kb-org-Koninklijke+Landmacht> .
+
+entity:d026086059014f174f354ca6e3792b8b
+	owl:sameAs entity:kb-org-Hoogovens .
+
+entity:kb-loc-Alkmaar
+	owl:sameAs <http://purl.org/collections/nl/dive/entity/098beae0ff4b2867f2cb0e9edb6c3c90> .
+
+entity:kb-loc-Almere
+	owl:sameAs <http://purl.org/collections/nl/dive/entity/0d5904bc5370e7e4b2c4c423191fd4fc> .
+
+entity:kb-loc-Amsterdam
+	owl:sameAs <http://purl.org/collections/nl/dive/entity/0c54d55f0a9425a4102b02191850da9b> .
+
+entity:kb-loc-Arnhem
+	owl:sameAs <http://purl.org/collections/nl/dive/entity/011adfbc94e5eb206bd0d9ce3fc2d8ef> .
+
+entity:kb-loc-Bijlmermeer
+	owl:sameAs <http://purl.org/collections/nl/dive/entity/2045a0591719f16345fe869bce84ecc8> .
+
+<http://purl.org/collections/nl/dive/entity/kb-loc-Den+Haag>
+	owl:sameAs <http://purl.org/collections/nl/dive/entity/001b054f8e8b405ca40d4150c574adda> .
+
+entity:kb-loc-Duitsland
+	owl:sameAs <http://purl.org/collections/nl/dive/entity/2b1d07ee03c4662d1b89fb4b0def69f6> .
+
+entity:kb-loc-Enkhuizen
+	owl:sameAs <http://purl.org/collections/nl/dive/entity/107e00ceebf649c3908c1252651af049> .
+
+entity:kb-loc-Friesland
+	owl:sameAs <http://purl.org/collections/nl/dive/entity/32a03c8b7c371038dad7abc32225bf95> .
+
+entity:kb-loc-Haarlem
+	owl:sameAs <http://purl.org/collections/nl/dive/entity/05d3190635c183b3b2d5bd88f83f2e58> .
+
+entity:kb-loc-Hongaarse
+	owl:sameAs <http://purl.org/collections/nl/dive/entity/1d3a65b3ef07a8b7babcf34018fc3952> .
+
+entity:kb-loc-Leeuwarden
+	owl:sameAs <http://purl.org/collections/nl/dive/entity/23b6a0c053990a41c07f04d83584cd89> .
+
+entity:kb-loc-Leidschendam
+	owl:sameAs <http://purl.org/collections/nl/dive/entity/0892ed09556014331aa71f12e3eb73ec> .
+
+entity:kb-loc-Luik
+	owl:sameAs <http://purl.org/collections/nl/dive/entity/10f0472c7b8c833f2f4ffcc313587469> .
+
+entity:kb-loc-Lunteren
+	owl:sameAs <http://purl.org/collections/nl/dive/entity/05d61c647ea6425e606f2b82fceeafcb> .
+
+entity:kb-loc-Nederland
+	owl:sameAs <http://purl.org/collections/nl/dive/entity/2a95a50cd52821fbd0b652183b0b8dfb> .
+
+entity:kb-loc-Nijmegen
+	owl:sameAs <http://purl.org/collections/nl/dive/entity/040f5b8ea35bcdfe9ad46ef5c0e45558> .
+
+entity:kb-loc-Parijs
+	owl:sameAs <http://purl.org/collections/nl/dive/entity/046932643c62c144e0ae178400cb91e1> .
+
+entity:kb-loc-Postmuseum
+	owl:sameAs <http://purl.org/collections/nl/dive/entity/48acc47b985b28d8ec339218262c3e78> .
+
+entity:kb-loc-Rembrandtplein
+	owl:sameAs <http://purl.org/collections/nl/dive/entity/30d3791aafb965b43203b033fcf9a77d> .
+
+entity:kb-loc-Rijn
+	owl:sameAs <http://purl.org/collections/nl/dive/entity/12da9f5602ee8d3c9b00af723516e9e2> .
+
+entity:kb-loc-Rokin
+	owl:sameAs <http://purl.org/collections/nl/dive/entity/9d6fe07453426ea8eb7101c3c5c587c8> .
+
+entity:kb-loc-Rotterdam
+	owl:sameAs <http://purl.org/collections/nl/dive/entity/063cd9709352dc2772a4e2e8b3830c8e> .
+
+entity:kb-loc-Spanje
+	owl:sameAs <http://purl.org/collections/nl/dive/entity/03d11799d350a0099649db4c341419eb> .
+
+entity:kb-loc-Surinaamse
+	owl:sameAs <http://purl.org/collections/nl/dive/entity/209944c6f546a9de4710320cefba93bc> .
+
+entity:kb-loc-Utrecht
+	owl:sameAs <http://purl.org/collections/nl/dive/entity/0ca73bedf1cc1ea033846a12532d2772> .
+
+entity:kb-loc-Vietnam
+	owl:sameAs <http://purl.org/collections/nl/dive/entity/0856e60af04a96bea2baf0fdc4fc3e4d> .
+
+entity:kb-loc-Vlissingen
+	owl:sameAs <http://purl.org/collections/nl/dive/entity/006329253fc8fb38655b456254e56d6c> .
+
+entity:kb-loc-Vredespaleis
+	owl:sameAs <http://purl.org/collections/nl/dive/entity/28bd8f1b7c962536d276681c0806c743> .
+
+entity:kb-loc-Zandvoort
+	owl:sameAs <http://purl.org/collections/nl/dive/entity/0c2ef15e1d861da52b85c82b9aab4cc5> .
+
+entity:kb-loc-Zeeuws
+	owl:sameAs <http://purl.org/collections/nl/dive/entity/04b1a4318d30249ce2bc43a312003191> .
+
+entity:kb-loc-Zuiderzeemuseum
+	owl:sameAs <http://purl.org/collections/nl/dive/entity/1eaf3f1ae9a34f4eab815e7aaa8a4e6b> .
+
+entity:kb-org-Amsterdam
+	owl:sameAs <http://purl.org/collections/nl/dive/entity/0beb080c79dd41f7c207b04b17ae53ee> .
+
+entity:kb-org-Arnhem
+	owl:sameAs entity:a362b0a551b906edae43cc5f16476318 .
+
+<http://purl.org/collections/nl/dive/entity/kb-org-De+Gaay+Fortman>
+	owl:sameAs <http://purl.org/collections/nl/dive/entity/308dc9410aefc2401f468164e3d6eebe> .
+
+entity:kb-org-Hongarije
+	owl:sameAs <http://purl.org/collections/nl/dive/entity/214f49ccc7c415bdd571db161b25ac3b> .
+
+entity:kb-org-Hoogovens
+	owl:sameAs entity:d026086059014f174f354ca6e3792b8b .
+
+entity:kb-org-Indonesische
+	owl:sameAs <http://purl.org/collections/nl/dive/entity/23393b44b8a12f208f21d3e9c1126a31> .
+
+<http://purl.org/collections/nl/dive/entity/kb-org-Koninklijke+Landmacht>
+	owl:sameAs entity:b69e138f697cbb7d5e1690bb6657896b .
+
+<http://purl.org/collections/nl/dive/entity/kb-org-Rode+Kruis>
+	owl:sameAs <http://purl.org/collections/nl/dive/entity/0d6c300b253d43ab29092d5779a1df46> .
+
+entity:kb-org-Rotterdam
+	owl:sameAs <http://purl.org/collections/nl/dive/entity/237aa75df76ab426ca94b206d6a771c1> .
+
+entity:kb-org-Russische
+	owl:sameAs <http://purl.org/collections/nl/dive/entity/120e8da662fb1a7af386c64b00a1a850> .
+
+entity:kb-org-Sinterklaas
+	owl:sameAs <http://purl.org/collections/nl/dive/entity/7378f63df7e8d7e1d2a9b66cacd14bff> .
+
+<http://purl.org/collections/nl/dive/entity/kb-org-Sociale+Zaken>
+	owl:sameAs <http://purl.org/collections/nl/dive/entity/1b04767bf682743896a9636bc850363e> .
+
+entity:kb-org-Spoorwegen
+	owl:sameAs <http://purl.org/collections/nl/dive/entity/9bb355239a53dcb5b7511a804268c495> .
+
+entity:kb-org-Vos
+	owl:sameAs <http://purl.org/collections/nl/dive/entity/0132278b6cbfbfa96eed81d244e7d266> .

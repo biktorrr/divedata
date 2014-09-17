@@ -21,7 +21,7 @@ a void:Dataset ;
                 void:dataDump
                 <oi_enriched.ttl>,
                 <kb_enriched.ttl>,
-				#<dive_links.ttl>,
+				<kb_oi_links.ttl>,
 				<dive_schema.ttl>.
 				
 <schemas>
