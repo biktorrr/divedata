@@ -22,7 +22,9 @@ a void:Dataset ;
                 <oi_enriched.ttl>,
                 <kb_enriched.ttl>,
                 <kb_enriched_more.ttl>, # for more links
-				<kb_oi_links.ttl>,
+				<links/kb_oi_links.ttl>,
+				<links/dataset3.ttl>,
+				<links/dataset4.ttl>,
 				<dive_schema.ttl>.
 				
 <schemas>
