@@ -21,7 +21,7 @@ a void:Dataset ;
                 void:dataDump
                 <oi_enriched.ttl>,
                 <kb_enriched.ttl>,
-                <kb_enriched_more.ttl>, # for more links
+              #  <kb_enriched_more.ttl>,
 				<links/kb_oi_links.ttl>,
 				<links/dataset3.ttl>,
 				<links/dataset4.ttl>,
